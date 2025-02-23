@@ -71,12 +71,12 @@ TODO: make them side by side
 - yellowstone has the most observations
   - is this due to the size of the park?
   - while the correlation value is high we can see that Bryce national park does not match the trend
-  - ![Image](graphs\percentage_of_observations_and_size_of_park.png)
+  - ![Image](graphs/percentage_of_observations_and_size_of_park.png)
 - vascular plant has the most observations
   - is this due to the number of species in this category?
   - the correlation value is high and the trend is also clear, i can conclude that the number of observations is directly proportional to the number of species in each category
   - the ,pre speices that there are in a category, the more chances to observe
-  - ![image](graphs\percentage_of_species_and_observations_per_category.png)
+  - ![image](graphs/percentage_of_species_and_observations_per_category.png)
 - the number of observations per observation status matches the same distribution as the number of species in each status
   - ![Image](graphs/percentage_of_observations_and_species_under_each_conservation_status.png)
                                                                 
