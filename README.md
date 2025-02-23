@@ -40,22 +40,22 @@ I will start by loading the data and exploring the first few rows of each datase
 Observing these datasets we can assume that the structure of the data is as follows:
 - observations.csv:  
 
-|Name|Type|Description|
-|---|---|---|
-|scientific_name| String | The scientific name of the species (foreign key) |
-| park_name | String | The name of the national park where the species was observed |
-| Observations | Int | The number of times the species was observed in the park |
+|Key|Name|Type|Description|
+|---|---|---|---|
+|*|scientific_name| String | The scientific name of the species (foreign key)|
+|*| park_name | String | The name of the national park where the species was observed |
+|| Observations | Int | The number of times the species was observed in the park |
 
 - species_info.csv:
 
-|Name|Type| Description|
-|---|---| ---|
-| category | String | The category of the species (mammal, bird, reptile, etc.) |
-| scientific_name | String | The scientific name of the species (primary key)|
-| common_names | String | The common names of the species |
-| conservation_status | String | The species conservation status |
+|Key|Name|Type| Description|
+|---|---|---| ---|
+|| category | String | The category of the species (mammal, bird, reptile, etc.) |
+|*| scientific_name | String | The scientific name of the species (primary key)|
+|| common_names | String | The common names of the species |
+|| conservation_status | String | The species conservation status |
 
-scientific name is the unique identifier for the species in both datasets.
+after some consolodating of the data by merging rows with the same scientific name, we can see that the scientific name is the unique identifier for the species in both datasets.
 
 #### General Observations
 
@@ -67,14 +67,19 @@ scientific name is the unique identifier for the species in both datasets.
     - the most common status is 'No Intervention'
 
 #### Deeper Observations
-
+TODO: make them side by side
 - yellowstone has the most observations
-  - is this to do with park size?
+  - is this due to the size of the park?
+  - while the correlation value is high we can see that Bryce national park does not match the trend
+  - ![Image](graphs\percentage_of_observations_and_size_of_park.png)
 - vascular plant has the most observations
   - is this due to the number of species in this category?
+  - the correlation value is high and the trend is also clear, i can conclude that the number of observations is directly proportional to the number of species in each category
+  - the ,pre speices that there are in a category, the more chances to observe
+  - ![image](graphs\percentage_of_species_and_observations_per_category.png)
 - the number of observations per observation status matches the same distribution as the number of species in each status
-  - ![Image]("graphs/percentage_of_observations_and_species_under_each_conservation_status.png")
-
+  - ![Image](graphs/percentage_of_observations_and_species_under_each_conservation_status.png)
+                                                                
 ## Descriptive Analysis
 
 1. What is the distribution of conservation status for species?
