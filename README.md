@@ -10,7 +10,7 @@ There are many speicies observed within the national parks, some of them are end
 
 ## Analysis
 
-Descriptive:
+[Descriptive](#descriptive-analysis):
 
 - What is the distribution of conservation status for species?
 - what is the park that has the most endangered species?
@@ -59,30 +59,39 @@ after some consolodating of the data by merging rows with the same scientific na
 
 #### General Observations
 
-- There are 4 national parks in the data
+#### - There are 4 national parks in the data
   - each park has the same number of records in observations 
-- There are 7 categories of species
+#### - There are 7 categories of species
   - the most common category is Vascular Plant
-- There are 4 conservation statuses
-    - the most common status is 'No Intervention'
+#### - There are 4 conservation statuses
+  - the most common status is 'No Intervention'
 
 #### Deeper Observations
-TODO: make them side by side
-- yellowstone has the most observations
+*TODO: make them side by side*
+
+#### - yellowstone has the most observations
   - is this due to the size of the park?
   - while the correlation value is high we can see that Bryce national park does not match the trend
   - ![Image](graphs/percentage_of_observations_and_size_of_park.png)
-- vascular plant has the most observations
+#### - vascular plant has the most observations
   - is this due to the number of species in this category?
   - the correlation value is high and the trend is also clear, i can conclude that the number of observations is directly proportional to the number of species in each category
   - the ,pre speices that there are in a category, the more chances to observe
   - ![image](graphs/percentage_of_species_and_observations_per_category.png)
-- the number of observations per observation status matches the same distribution as the number of species in each status
+#### - the number of observations per observation status matches the same distribution as the number of species in each status
   - ![Image](graphs/percentage_of_observations_and_species_under_each_conservation_status.png)
                                                                 
 ## Descriptive Analysis
 
-1. What is the distribution of conservation status for species?
-2. what is the park that has the most endangered species?
-3. what is the category that has the most endangered species?
-4. what is the most common species in each park?
+### 1. What is the distribution of conservation status for each species?
+  - with 'No Intervention' removed from the data, we can see more clearly using the total column that bird species are the most endangered with 75 species having a non 'No Intervention' status.
+  - Mamals have the most species in the 'Endangered' status
+  - ![Image](graphs/conservation_status_of_species_per_category.png)
+### 2. what is the park that has the most endangered species?
+  - From ths graph we can see that Bryce national park has the most endangered species and with its relatively small size, it has the highest percentage of endangered species. 
+  - ![image](graphs/count_of_endangered_species_per_park.png)
+  - Using the observation count for each species we can see that yelowstone has the most observations of endangered species, however, as the park is the largest, the percentage of endangered species is the lowest.
+  - Bryce national park has still has the highest percentage of endangered species by observation count.
+  - ![imaage](graphs/count_of_endangered_species_observations_per_park.png)
+### 3. what is the category that has the most endangered species?
+### 4. what is the most common species in each park?
