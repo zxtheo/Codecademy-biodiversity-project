@@ -14,10 +14,9 @@ There are many species observed within the national parks, some of them are enda
 
 - What is the distribution of conservation status for species?
 - What is the park that has the most endangered species?
-- What is the category that has the most endangered species?
 - What is the most common species in each park?
 
-Exploratory:
+[Exploratory](#exploratory-analysis):
 
 - Is there a correlation between multiple types of species and their conservation status?
 - Is there a correlation between the park and the conservation status of the species?
@@ -93,5 +92,41 @@ After some consolidating of the data by merging rows with the same scientific na
   - Using the observation count for each species we can see that Yellowstone has the most observations of endangered species, however, as the park is the largest, the percentage of endangered species is the lowest.
   - Bryce national park still has the highest percentage of endangered species by observation count.
   - ![Image](graphs/count_of_endangered_species_observations_per_park.png)
-### 3. what is the category that has the most endangered species?
-### 4. what is the most common species in each park?
+### 3. what is the most common species in each park?
+  - The most common species for each park is as follows:
+
+|Park Name|Observation Count|Scientific Name|Category|Common Name|Conservation Status|
+|---|---|---|---|---|---|
+|Bryce National Park| 339 | Columba livia | Bird | Rock Dove | No Intervention |
+|Great Smoky Mountains National Park| 256 | Streptopelia decaocto | Bird | Eurasian Collared-Dove | No Intervention |
+|Yellowstone National Park| 805 | Holocus lanatus | Vascular Plant | Common Velvet Grass | No Intervention |
+|Yosemite National Park| 505 | Hypochaeris radicata | Vascular Plant | False Dandelion | No Intervention |
+  - the most common species that has a non 'No Intervention' status for each park:
+
+|Park Name|Observation Count|Scientific Name|Category|Common Name|Conservation Status|
+|---|---|---|---|---|---|
+|Bryce National Park| 298 | Myotis lucifugus | Mammal | Little Brown Bat | Species of Concern |
+|Great Smoky Mountains National Park| 174 | Myotis lucifugus | Mammal | Little Brown Bat | Species of Concern |
+|Yellowstone National Park| 679 | Myotis lucifugus | Mammal | Little Brown Bat | Species of Concern |
+|Yosemite National Park| 396 | Myotis lucifugus | Mammal | Little Brown Bat | Species of Concern |
+### 4. what are the least common species in each park?
+  - The least common species for each park is as follows:
+
+|Park Name|Observation Count|Scientific Name|Category|Common Name|Conservation Status|
+|---|---|---|---|---|---|
+|Bryce National Park| 9 | Corydalis aurea | Vascular Plant | Golden Corydalis | No Intervention |
+|Great Smoky Mountains National Park| 10 | Collomia tinctoria | Vascular Plant | Yellow-staining Collomia | No Intervention |
+|Yellowstone National Park| 57 | Grus americana | Bird | Whooping Crane | Endangered |
+|Yosemite National Park| 31 | Noturus baileyi | Fish | Smoky Madtom | Endangered |
+
+
+To sum up this section, this is a graph showing the distribution of categories in each park:
+![Image](graphs/percentage_of_observations_per_category_per_park.png)
+
+## Exploratory Analysis
+
+### 1. Is there a correlation between multiple types of species and their conservation status?
+
+### 2. Is there a correlation between the park and the conservation status of the species?
+
+### 3. Is there a correlation between the category and the conservation status of the species?
