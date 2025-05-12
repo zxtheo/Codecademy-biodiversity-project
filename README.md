@@ -79,7 +79,7 @@ The table reveals that the distribution of species categories is consistent acro
 | Reptile           |                    78 |                                    78 |                          78 |                       78 |
 | Vascular Plant    |                  4262 |                                  4262 |                        4262 |                     4262 |
 
-![Image](Graphs\Distribution_of_Species_Categories_Across_All_Parks.png)
+![Image](Graphs/Distribution_of_Species_Categories_Across_All_Parks.png)
 
 2. ### What is the distribution of observations across different parks?
 
@@ -96,7 +96,7 @@ Yellowstone national park has the most amount of observations across the board, 
 | Reptile           |                    78 |                                    78 |                          78 |                       78 |
 | Vascular Plant    |                  4262 |                                  4262 |                        4262 |                     4262 |
 
-![Image](Graphs\Distribution_of_Species_Observations_Across_All_Parks.png)
+![Image](Graphs/Distribution_of_Species_Observations_Across_All_Parks.png)
 
 
 3. ### What are the most commonly observed species in each park?
@@ -122,7 +122,7 @@ This shows that the most common conservation status is 'No Intervention' across 
 | Yellowstone National Park           |              1284 |             1 |                   31 |            3 |            3 |
 | Yosemite National Park              |              1281 |             0 |                   41 |            4 |            4 |
 
-![image](Graphs\Conservation_Status_Frequency_in_Each_Park.png)
+![image](Graphs/Conservation_Status_Frequency_in_Each_Park.png)
 
 5. ### What are the common names of the most observed scientific names?
 
@@ -151,9 +151,9 @@ This table shows the number of species in each category and conservation status.
 | Reptile           |                73 |             0 |                    5 |            0 |            0 |
 | Vascular Plant    |              4216 |             0 |                   43 |            2 |            1 |
 
-![image](Graphs\Conservation_Status_Frequency_in_Each_Category.png)
+![image](Graphs/Conservation_Status_Frequency_in_Each_Category.png)
 
-![image](Graphs\Mean_Observations_Distance_from_Average.png)
+![image](Graphs/Mean_Observations_Distance_from_Average.png)
 
 This graphs shows this calculation:
 
